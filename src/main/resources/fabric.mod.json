@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "autonamaz",
+  "version": "${version}",
+  "name": "autonamaz",
+  "description": "ITS NAMAZ TIME!",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/GuFFy12/autonamaz"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/autonamaz/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.islam.autonamaz.AutoNamaz"
+    ]
+  },
+  "mixins": [
+    "autonamaz.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
